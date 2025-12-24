@@ -11,6 +11,12 @@
 		073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0212EFAC38800E83EAA /* ContentView.swift */; };
 		073AA0242EFAC38B00E83EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073AA0232EFAC38B00E83EAA /* Assets.xcassets */; };
 		073AA0272EFAC38B00E83EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073AA0262EFAC38B00E83EAA /* Preview Assets.xcassets */; };
+		073AA0542EFBF08B00E83EAA /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0532EFBF08B00E83EAA /* ColorPallete.swift */; };
+		073AA0562EFD3B7F00E83EAA /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0552EFD3B7F00E83EAA /* Typography.swift */; };
+		073AA0582EFD3BD500E83EAA /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0572EFD3BD500E83EAA /* Spacing.swift */; };
+		073AA05A2EFD3C0700E83EAA /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0592EFD3C0700E83EAA /* Radius.swift */; };
+		073AA05C2EFD3C3600E83EAA /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA05B2EFD3C3600E83EAA /* Shadows.swift */; };
+		073AA05E2EFD3CE800E83EAA /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA05D2EFD3CE800E83EAA /* AppTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		073AA0212EFAC38800E83EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		073AA0232EFAC38B00E83EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073AA0262EFAC38B00E83EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		073AA0532EFBF08B00E83EAA /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
+		073AA0552EFD3B7F00E83EAA /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		073AA0572EFD3BD500E83EAA /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		073AA0592EFD3C0700E83EAA /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		073AA05B2EFD3C3600E83EAA /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		073AA05D2EFD3CE800E83EAA /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +63,14 @@
 		073AA01E2EFAC38800E83EAA /* TestSolz */ = {
 			isa = PBXGroup;
 			children = (
-				073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */,
+				073AA0362EFBE5DC00E83EAA /* Utilities */,
+				073AA0352EFBE5CD00E83EAA /* Services */,
+				073AA0342EFBE5C000E83EAA /* Domain */,
+				073AA0332EFBE5B600E83EAA /* Design system  */,
+				073AA0322EFBE5A800E83EAA /* Shared */,
+				073AA0302EFBE58A00E83EAA /* Features */,
+				073AA02F2EFBE57300E83EAA /* Core */,
+				073AA02E2EFBE53200E83EAA /* App */,
 				073AA0212EFAC38800E83EAA /* ContentView.swift */,
 				073AA0232EFAC38B00E83EAA /* Assets.xcassets */,
 				073AA0252EFAC38B00E83EAA /* Preview Content */,
@@ -65,6 +84,277 @@
 				073AA0262EFAC38B00E83EAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		073AA02E2EFBE53200E83EAA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		073AA02F2EFBE57300E83EAA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				073AA03A2EFBE70F00E83EAA /* Storage */,
+				073AA0392EFBE6FD00E83EAA /* DependencyInjection */,
+				073AA0382EFBE6E600E83EAA /* Authentication */,
+				073AA0372EFBE6DB00E83EAA /* Navigation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		073AA0302EFBE58A00E83EAA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				073AA03C2EFBE77500E83EAA /* Employee */,
+				073AA03B2EFBE76F00E83EAA /* Admin */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		073AA0322EFBE5A800E83EAA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0472EFBE90400E83EAA /* Extensions */,
+				073AA0462EFBE8F500E83EAA /* Modifiers  */,
+				073AA0452EFBE8E900E83EAA /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		073AA0332EFBE5B600E83EAA /* Design system  */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0492EFBE9B000E83EAA /* Icons */,
+				073AA0482EFBE9AA00E83EAA /* Theme */,
+			);
+			path = "Design system ";
+			sourceTree = "<group>";
+		};
+		073AA0342EFBE5C000E83EAA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0512EFBEA0F00E83EAA /* Protocol */,
+				073AA0502EFBEA0800E83EAA /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		073AA0352EFBE5CD00E83EAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				073AA04C2EFBE9D200E83EAA /* User */,
+				073AA04B2EFBE9C600E83EAA /* Attendance */,
+				073AA04A2EFBE9BD00E83EAA /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		073AA0362EFBE5DC00E83EAA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				073AA04F2EFBE9FB00E83EAA /* Logging */,
+				073AA04E2EFBE9F000E83EAA /* Helpers */,
+				073AA04D2EFBE9DF00E83EAA /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		073AA0372EFBE6DB00E83EAA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		073AA0382EFBE6E600E83EAA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		073AA0392EFBE6FD00E83EAA /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		073AA03A2EFBE70F00E83EAA /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		073AA03B2EFBE76F00E83EAA /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0442EFBE82F00E83EAA /* AdminHome */,
+				073AA0432EFBE82000E83EAA /* AttendanceMonitor */,
+				073AA0412EFBE80700E83EAA /* Dashboard */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		073AA03C2EFBE77500E83EAA /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0402EFBE7F400E83EAA /* EmployeeHome */,
+				073AA03F2EFBE7DC00E83EAA /* Attendance History */,
+				073AA03E2EFBE7D300E83EAA /* CheckOut */,
+				073AA03D2EFBE7CB00E83EAA /* CheckIn */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		073AA03D2EFBE7CB00E83EAA /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		073AA03E2EFBE7D300E83EAA /* CheckOut */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CheckOut;
+			sourceTree = "<group>";
+		};
+		073AA03F2EFBE7DC00E83EAA /* Attendance History */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Attendance History";
+			sourceTree = "<group>";
+		};
+		073AA0402EFBE7F400E83EAA /* EmployeeHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmployeeHome;
+			sourceTree = "<group>";
+		};
+		073AA0412EFBE80700E83EAA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		073AA0432EFBE82000E83EAA /* AttendanceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AttendanceMonitor;
+			sourceTree = "<group>";
+		};
+		073AA0442EFBE82F00E83EAA /* AdminHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AdminHome;
+			sourceTree = "<group>";
+		};
+		073AA0452EFBE8E900E83EAA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		073AA0462EFBE8F500E83EAA /* Modifiers  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Modifiers ";
+			sourceTree = "<group>";
+		};
+		073AA0472EFBE90400E83EAA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		073AA0482EFBE9AA00E83EAA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				073AA0532EFBF08B00E83EAA /* ColorPallete.swift */,
+				073AA0552EFD3B7F00E83EAA /* Typography.swift */,
+				073AA0572EFD3BD500E83EAA /* Spacing.swift */,
+				073AA0592EFD3C0700E83EAA /* Radius.swift */,
+				073AA05B2EFD3C3600E83EAA /* Shadows.swift */,
+				073AA05D2EFD3CE800E83EAA /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		073AA0492EFBE9B000E83EAA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		073AA04A2EFBE9BD00E83EAA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		073AA04B2EFBE9C600E83EAA /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Attendance;
+			sourceTree = "<group>";
+		};
+		073AA04C2EFBE9D200E83EAA /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		073AA04D2EFBE9DF00E83EAA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		073AA04E2EFBE9F000E83EAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		073AA04F2EFBE9FB00E83EAA /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		073AA0502EFBEA0800E83EAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		073AA0512EFBEA0F00E83EAA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +427,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073AA0542EFBF08B00E83EAA /* ColorPallete.swift in Sources */,
 				073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */,
+				073AA0582EFD3BD500E83EAA /* Spacing.swift in Sources */,
+				073AA0562EFD3B7F00E83EAA /* Typography.swift in Sources */,
 				073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */,
+				073AA05E2EFD3CE800E83EAA /* AppTheme.swift in Sources */,
+				073AA05C2EFD3C3600E83EAA /* Shadows.swift in Sources */,
+				073AA05A2EFD3C0700E83EAA /* Radius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +568,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestSolz/Preview Content\"";
+				DEVELOPMENT_TEAM = SH9N773ZL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestSolz/Preview Content\"";
+				DEVELOPMENT_TEAM = SH9N773ZL4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
