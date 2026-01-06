@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071E9AAA2F0D1D13001F27A0 /* AppIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AA92F0D1D13001F27A0 /* AppIcons.swift */; };
+		071E9AAE2F0D1D63001F27A0 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AAD2F0D1D63001F27A0 /* PrimaryButton.swift */; };
+		071E9AB02F0D1D7B001F27A0 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AAF2F0D1D7B001F27A0 /* SecondaryButton.swift */; };
+		071E9AB22F0D1D93001F27A0 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AB12F0D1D93001F27A0 /* TextButton.swift */; };
+		071E9AB52F0D1E9C001F27A0 /* BaseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AB42F0D1E9C001F27A0 /* BaseCard.swift */; };
+		071E9AB72F0D1EB5001F27A0 /* StatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AB62F0D1EB5001F27A0 /* StatusCard.swift */; };
+		071E9AB92F0D1ECB001F27A0 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AB82F0D1ECB001F27A0 /* MetricCard.swift */; };
+		071E9ABD2F0D1F3D001F27A0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ABC2F0D1F3D001F27A0 /* CustomTextField.swift */; };
+		071E9AC02F0D1F74001F27A0 /* UserRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ABF2F0D1F74001F27A0 /* UserRole.swift */; };
+		071E9AC22F0D1F96001F27A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AC12F0D1F96001F27A0 /* User.swift */; };
+		071E9AC52F0D2044001F27A0 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AC42F0D2044001F27A0 /* AuthenticationViewModel.swift */; };
+		071E9AC72F0D205B001F27A0 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AC62F0D205B001F27A0 /* AuthenticationView.swift */; };
+		071E9AC92F0D20F4001F27A0 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AC82F0D20F4001F27A0 /* Attendance.swift */; };
+		071E9ACD2F0D2150001F27A0 /* CheckInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ACC2F0D2150001F27A0 /* CheckInViewModel.swift */; };
+		071E9AD12F0D2189001F27A0 /* EmployeeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AD02F0D2189001F27A0 /* EmployeeHomeView.swift */; };
+		071E9AD52F0D2246001F27A0 /* EmployeeAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AD42F0D2246001F27A0 /* EmployeeAttendance.swift */; };
+		071E9ADB2F0D22A4001F27A0 /* AdminDashboardViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */; };
+		071E9ADE2F0D230B001F27A0 /* AdminDashboardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */; };
+		071E9AE42F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AE32F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift */; };
+		071E9AE62F0D250F001F27A0 /* AttendanceHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AE52F0D250F001F27A0 /* AttendanceHistoryView.swift */; };
+		071E9AEA2F0D28CB001F27A0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AE92F0D28CB001F27A0 /* ProfileView.swift */; };
+		071E9AED2F0D297C001F27A0 /* EmployeeHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AEC2F0D297C001F27A0 /* EmployeeHomeViewModel.swift */; };
+		071E9AEF2F0D2AAE001F27A0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AEE2F0D2AAD001F27A0 /* Task.swift */; };
+		071E9AF12F0D2B35001F27A0 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AF02F0D2B35001F27A0 /* TasksViewModel.swift */; };
+		071E9AF52F0D2B8B001F27A0 /* ProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AF42F0D2B8B001F27A0 /* ProjectCard.swift */; };
+		071E9AF72F0D2B9E001F27A0 /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AF62F0D2B9E001F27A0 /* TaskCard.swift */; };
+		071E9AF92F0D2BD6001F27A0 /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AF82F0D2BD6001F27A0 /* CreateTaskView.swift */; };
+		071E9AFB2F0D2CDF001F27A0 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AFA2F0D2CDF001F27A0 /* EditProjectView.swift */; };
+		071E9AFD2F0D2E56001F27A0 /* LeaveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AFC2F0D2E56001F27A0 /* LeaveRequest.swift */; };
+		071E9B002F0D2E8D001F27A0 /* AppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AFF2F0D2E8D001F27A0 /* AppTab.swift */; };
+		071E9B032F0D2EE1001F27A0 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B022F0D2EE1001F27A0 /* CustomTabBar.swift */; };
+		071E9B062F0D2F0A001F27A0 /* EmployeeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B052F0D2F0A001F27A0 /* EmployeeTabView.swift */; };
+		071E9B0A2F0D2F3B001F27A0 /* EmployeeRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B092F0D2F3B001F27A0 /* EmployeeRequestsView.swift */; };
+		071E9B0D2F0D2FFB001F27A0 /* AdminTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B0C2F0D2FFB001F27A0 /* AdminTabView.swift */; };
+		071E9B102F0D3030001F27A0 /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B0F2F0D3030001F27A0 /* EmployeeListView.swift */; };
+		071E9B142F0D3060001F27A0 /* AdminRequestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B132F0D3060001F27A0 /* AdminRequestsView.swift */; };
+		071E9B162F0D314D001F27A0 /* RequestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B152F0D314D001F27A0 /* RequestsViewModel.swift */; };
+		071E9B182F0D3170001F27A0 /* RequestCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B172F0D3170001F27A0 /* RequestCard.swift */; };
+		071E9B1A2F0D3191001F27A0 /* CreateLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */; };
+		071E9B1E2F0D32AB001F27A0 /* CreateLateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */; };
 		073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */; };
 		073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0212EFAC38800E83EAA /* ContentView.swift */; };
 		073AA0242EFAC38B00E83EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073AA0232EFAC38B00E83EAA /* Assets.xcassets */; };
@@ -20,6 +60,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071E9AA92F0D1D13001F27A0 /* AppIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcons.swift; sourceTree = "<group>"; };
+		071E9AAD2F0D1D63001F27A0 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		071E9AAF2F0D1D7B001F27A0 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		071E9AB12F0D1D93001F27A0 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		071E9AB42F0D1E9C001F27A0 /* BaseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCard.swift; sourceTree = "<group>"; };
+		071E9AB62F0D1EB5001F27A0 /* StatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCard.swift; sourceTree = "<group>"; };
+		071E9AB82F0D1ECB001F27A0 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		071E9ABC2F0D1F3D001F27A0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		071E9ABF2F0D1F74001F27A0 /* UserRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRole.swift; sourceTree = "<group>"; };
+		071E9AC12F0D1F96001F27A0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		071E9AC42F0D2044001F27A0 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		071E9AC62F0D205B001F27A0 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		071E9AC82F0D20F4001F27A0 /* Attendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		071E9ACC2F0D2150001F27A0 /* CheckInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewModel.swift; sourceTree = "<group>"; };
+		071E9AD02F0D2189001F27A0 /* EmployeeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeHomeView.swift; sourceTree = "<group>"; };
+		071E9AD42F0D2246001F27A0 /* EmployeeAttendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAttendance.swift; sourceTree = "<group>"; };
+		071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminDashboardViewModel .swift"; sourceTree = "<group>"; };
+		071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminDashboardView .swift"; sourceTree = "<group>"; };
+		071E9AE32F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryViewModel.swift; sourceTree = "<group>"; };
+		071E9AE52F0D250F001F27A0 /* AttendanceHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryView.swift; sourceTree = "<group>"; };
+		071E9AE92F0D28CB001F27A0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		071E9AEC2F0D297C001F27A0 /* EmployeeHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeHomeViewModel.swift; sourceTree = "<group>"; };
+		071E9AEE2F0D2AAD001F27A0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		071E9AF02F0D2B35001F27A0 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		071E9AF42F0D2B8B001F27A0 /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
+		071E9AF62F0D2B9E001F27A0 /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		071E9AF82F0D2BD6001F27A0 /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
+		071E9AFA2F0D2CDF001F27A0 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		071E9AFC2F0D2E56001F27A0 /* LeaveRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveRequest.swift; sourceTree = "<group>"; };
+		071E9AFF2F0D2E8D001F27A0 /* AppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTab.swift; sourceTree = "<group>"; };
+		071E9B022F0D2EE1001F27A0 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		071E9B052F0D2F0A001F27A0 /* EmployeeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTabView.swift; sourceTree = "<group>"; };
+		071E9B092F0D2F3B001F27A0 /* EmployeeRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRequestsView.swift; sourceTree = "<group>"; };
+		071E9B0C2F0D2FFB001F27A0 /* AdminTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTabView.swift; sourceTree = "<group>"; };
+		071E9B0F2F0D3030001F27A0 /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		071E9B132F0D3060001F27A0 /* AdminRequestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRequestsView.swift; sourceTree = "<group>"; };
+		071E9B152F0D314D001F27A0 /* RequestsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewModel.swift; sourceTree = "<group>"; };
+		071E9B172F0D3170001F27A0 /* RequestCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCard.swift; sourceTree = "<group>"; };
+		071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLeaveView.swift; sourceTree = "<group>"; };
+		071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLateView.swift; sourceTree = "<group>"; };
 		073AA01C2EFAC38800E83EAA /* TestSolz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSolz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSolzApp.swift; sourceTree = "<group>"; };
 		073AA0212EFAC38800E83EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +124,271 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071E9AA82F0D1D05001F27A0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AA92F0D1D13001F27A0 /* AppIcons.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		071E9AAB2F0D1D2E001F27A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B012F0D2ECF001F27A0 /* Navigation */,
+				071E9ABB2F0D1F27001F27A0 /* Input */,
+				071E9AB32F0D1E48001F27A0 /* Cards */,
+				071E9AAC2F0D1D55001F27A0 /* Buttons */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		071E9AAC2F0D1D55001F27A0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AAD2F0D1D63001F27A0 /* PrimaryButton.swift */,
+				071E9AAF2F0D1D7B001F27A0 /* SecondaryButton.swift */,
+				071E9AB12F0D1D93001F27A0 /* TextButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		071E9AB32F0D1E48001F27A0 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AB42F0D1E9C001F27A0 /* BaseCard.swift */,
+				071E9AB62F0D1EB5001F27A0 /* StatusCard.swift */,
+				071E9AB82F0D1ECB001F27A0 /* MetricCard.swift */,
+				071E9AF42F0D2B8B001F27A0 /* ProjectCard.swift */,
+				071E9AF62F0D2B9E001F27A0 /* TaskCard.swift */,
+				071E9B172F0D3170001F27A0 /* RequestCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		071E9ABB2F0D1F27001F27A0 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ABC2F0D1F3D001F27A0 /* CustomTextField.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		071E9ABE2F0D1F5E001F27A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ABF2F0D1F74001F27A0 /* UserRole.swift */,
+				071E9AC12F0D1F96001F27A0 /* User.swift */,
+				071E9AC82F0D20F4001F27A0 /* Attendance.swift */,
+				071E9AEE2F0D2AAD001F27A0 /* Task.swift */,
+				071E9AFC2F0D2E56001F27A0 /* LeaveRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		071E9AC32F0D202D001F27A0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AC42F0D2044001F27A0 /* AuthenticationViewModel.swift */,
+				071E9AC62F0D205B001F27A0 /* AuthenticationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		071E9ACA2F0D2113001F27A0 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ACB2F0D213A001F27A0 /* ViewModels */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		071E9ACB2F0D213A001F27A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ACC2F0D2150001F27A0 /* CheckInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		071E9ACE2F0D216A001F27A0 /* EmployeeHome */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AEB2F0D2969001F27A0 /* ViewModels */,
+				071E9ACF2F0D2179001F27A0 /* Views */,
+			);
+			path = EmployeeHome;
+			sourceTree = "<group>";
+		};
+		071E9ACF2F0D2179001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AD02F0D2189001F27A0 /* EmployeeHomeView.swift */,
+				071E9AF82F0D2BD6001F27A0 /* CreateTaskView.swift */,
+				071E9AFA2F0D2CDF001F27A0 /* EditProjectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071E9AD22F0D2224001F27A0 /* AttendanceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B0E2F0D3020001F27A0 /* Views */,
+				071E9AD32F0D2230001F27A0 /* Models */,
+			);
+			path = AttendanceMonitor;
+			sourceTree = "<group>";
+		};
+		071E9AD32F0D2230001F27A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AD42F0D2246001F27A0 /* EmployeeAttendance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		071E9AD62F0D225F001F27A0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ADC2F0D22FA001F27A0 /* Views */,
+				071E9AD92F0D2290001F27A0 /* ViewModels */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		071E9AD92F0D2290001F27A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		071E9ADC2F0D22FA001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071E9AE12F0D24D2001F27A0 /* AttendanceHistory */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AE22F0D24DE001F27A0 /* ViewModels */,
+			);
+			path = AttendanceHistory;
+			sourceTree = "<group>";
+		};
+		071E9AE22F0D24DE001F27A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AE32F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift */,
+				071E9AE52F0D250F001F27A0 /* AttendanceHistoryView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		071E9AE72F0D28B5001F27A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AE82F0D28BD001F27A0 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		071E9AE82F0D28BD001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AE92F0D28CB001F27A0 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071E9AEB2F0D2969001F27A0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AEC2F0D297C001F27A0 /* EmployeeHomeViewModel.swift */,
+				071E9AF02F0D2B35001F27A0 /* TasksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		071E9AFE2F0D2E7A001F27A0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				071E9AFF2F0D2E8D001F27A0 /* AppTab.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		071E9B012F0D2ECF001F27A0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B022F0D2EE1001F27A0 /* CustomTabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		071E9B042F0D2EF7001F27A0 /* TabContainer */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B052F0D2F0A001F27A0 /* EmployeeTabView.swift */,
+			);
+			path = TabContainer;
+			sourceTree = "<group>";
+		};
+		071E9B072F0D2F1F001F27A0 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B082F0D2F2B001F27A0 /* Views */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		071E9B082F0D2F2B001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B092F0D2F3B001F27A0 /* EmployeeRequestsView.swift */,
+				071E9B152F0D314D001F27A0 /* RequestsViewModel.swift */,
+				071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */,
+				071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071E9B0B2F0D2FEC001F27A0 /* TabContainer */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B0C2F0D2FFB001F27A0 /* AdminTabView.swift */,
+			);
+			path = TabContainer;
+			sourceTree = "<group>";
+		};
+		071E9B0E2F0D3020001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B0F2F0D3030001F27A0 /* EmployeeListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		071E9B112F0D3049001F27A0 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B122F0D3051001F27A0 /* Views */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		071E9B122F0D3051001F27A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				071E9B132F0D3060001F27A0 /* AdminRequestsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		073AA0132EFAC38700E83EAA = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +442,10 @@
 		073AA02F2EFBE57300E83EAA /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				071E9AFE2F0D2E7A001F27A0 /* Navigation */,
+				071E9AC32F0D202D001F27A0 /* Authentication */,
 				073AA03A2EFBE70F00E83EAA /* Storage */,
 				073AA0392EFBE6FD00E83EAA /* DependencyInjection */,
-				073AA0382EFBE6E600E83EAA /* Authentication */,
-				073AA0372EFBE6DB00E83EAA /* Navigation */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -117,9 +462,9 @@
 		073AA0322EFBE5A800E83EAA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				071E9AAB2F0D1D2E001F27A0 /* Components */,
 				073AA0472EFBE90400E83EAA /* Extensions */,
 				073AA0462EFBE8F500E83EAA /* Modifiers  */,
-				073AA0452EFBE8E900E83EAA /* Components */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -127,7 +472,7 @@
 		073AA0332EFBE5B600E83EAA /* Design system  */ = {
 			isa = PBXGroup;
 			children = (
-				073AA0492EFBE9B000E83EAA /* Icons */,
+				071E9AA82F0D1D05001F27A0 /* Icons */,
 				073AA0482EFBE9AA00E83EAA /* Theme */,
 			);
 			path = "Design system ";
@@ -136,8 +481,8 @@
 		073AA0342EFBE5C000E83EAA /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				071E9ABE2F0D1F5E001F27A0 /* Models */,
 				073AA0512EFBEA0F00E83EAA /* Protocol */,
-				073AA0502EFBEA0800E83EAA /* Models */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -162,20 +507,6 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		073AA0372EFBE6DB00E83EAA /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		073AA0382EFBE6E600E83EAA /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Authentication;
-			sourceTree = "<group>";
-		};
 		073AA0392EFBE6FD00E83EAA /* DependencyInjection */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,9 +524,11 @@
 		073AA03B2EFBE76F00E83EAA /* Admin */ = {
 			isa = PBXGroup;
 			children = (
+				071E9B112F0D3049001F27A0 /* Requests */,
+				071E9B0B2F0D2FEC001F27A0 /* TabContainer */,
+				071E9AD62F0D225F001F27A0 /* Dashboard */,
+				071E9AD22F0D2224001F27A0 /* AttendanceMonitor */,
 				073AA0442EFBE82F00E83EAA /* AdminHome */,
-				073AA0432EFBE82000E83EAA /* AttendanceMonitor */,
-				073AA0412EFBE80700E83EAA /* Dashboard */,
 			);
 			path = Admin;
 			sourceTree = "<group>";
@@ -203,19 +536,15 @@
 		073AA03C2EFBE77500E83EAA /* Employee */ = {
 			isa = PBXGroup;
 			children = (
-				073AA0402EFBE7F400E83EAA /* EmployeeHome */,
-				073AA03F2EFBE7DC00E83EAA /* Attendance History */,
+				071E9B072F0D2F1F001F27A0 /* Requests */,
+				071E9B042F0D2EF7001F27A0 /* TabContainer */,
+				071E9AE72F0D28B5001F27A0 /* Profile */,
+				071E9AE12F0D24D2001F27A0 /* AttendanceHistory */,
+				071E9ACE2F0D216A001F27A0 /* EmployeeHome */,
+				071E9ACA2F0D2113001F27A0 /* CheckIn */,
 				073AA03E2EFBE7D300E83EAA /* CheckOut */,
-				073AA03D2EFBE7CB00E83EAA /* CheckIn */,
 			);
 			path = Employee;
-			sourceTree = "<group>";
-		};
-		073AA03D2EFBE7CB00E83EAA /* CheckIn */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CheckIn;
 			sourceTree = "<group>";
 		};
 		073AA03E2EFBE7D300E83EAA /* CheckOut */ = {
@@ -225,46 +554,11 @@
 			path = CheckOut;
 			sourceTree = "<group>";
 		};
-		073AA03F2EFBE7DC00E83EAA /* Attendance History */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Attendance History";
-			sourceTree = "<group>";
-		};
-		073AA0402EFBE7F400E83EAA /* EmployeeHome */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = EmployeeHome;
-			sourceTree = "<group>";
-		};
-		073AA0412EFBE80700E83EAA /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		073AA0432EFBE82000E83EAA /* AttendanceMonitor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AttendanceMonitor;
-			sourceTree = "<group>";
-		};
 		073AA0442EFBE82F00E83EAA /* AdminHome */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = AdminHome;
-			sourceTree = "<group>";
-		};
-		073AA0452EFBE8E900E83EAA /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		073AA0462EFBE8F500E83EAA /* Modifiers  */ = {
@@ -292,13 +586,6 @@
 				073AA05D2EFD3CE800E83EAA /* AppTheme.swift */,
 			);
 			path = Theme;
-			sourceTree = "<group>";
-		};
-		073AA0492EFBE9B000E83EAA /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Icons;
 			sourceTree = "<group>";
 		};
 		073AA04A2EFBE9BD00E83EAA /* Network */ = {
@@ -341,13 +628,6 @@
 			children = (
 			);
 			path = Logging;
-			sourceTree = "<group>";
-		};
-		073AA0502EFBEA0800E83EAA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		073AA0512EFBEA0F00E83EAA /* Protocol */ = {
@@ -427,14 +707,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071E9ADE2F0D230B001F27A0 /* AdminDashboardView .swift in Sources */,
+				071E9AF92F0D2BD6001F27A0 /* CreateTaskView.swift in Sources */,
+				071E9AF12F0D2B35001F27A0 /* TasksViewModel.swift in Sources */,
+				071E9B002F0D2E8D001F27A0 /* AppTab.swift in Sources */,
+				071E9AB22F0D1D93001F27A0 /* TextButton.swift in Sources */,
+				071E9AE62F0D250F001F27A0 /* AttendanceHistoryView.swift in Sources */,
+				071E9AB52F0D1E9C001F27A0 /* BaseCard.swift in Sources */,
+				071E9AC52F0D2044001F27A0 /* AuthenticationViewModel.swift in Sources */,
+				071E9AC92F0D20F4001F27A0 /* Attendance.swift in Sources */,
+				071E9AB02F0D1D7B001F27A0 /* SecondaryButton.swift in Sources */,
+				071E9B062F0D2F0A001F27A0 /* EmployeeTabView.swift in Sources */,
+				071E9AC02F0D1F74001F27A0 /* UserRole.swift in Sources */,
+				071E9ACD2F0D2150001F27A0 /* CheckInViewModel.swift in Sources */,
 				073AA0542EFBF08B00E83EAA /* ColorPallete.swift in Sources */,
+				071E9AFD2F0D2E56001F27A0 /* LeaveRequest.swift in Sources */,
+				071E9AE42F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift in Sources */,
+				071E9AED2F0D297C001F27A0 /* EmployeeHomeViewModel.swift in Sources */,
+				071E9B0A2F0D2F3B001F27A0 /* EmployeeRequestsView.swift in Sources */,
+				071E9B032F0D2EE1001F27A0 /* CustomTabBar.swift in Sources */,
+				071E9AEA2F0D28CB001F27A0 /* ProfileView.swift in Sources */,
+				071E9ABD2F0D1F3D001F27A0 /* CustomTextField.swift in Sources */,
 				073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */,
+				071E9AD52F0D2246001F27A0 /* EmployeeAttendance.swift in Sources */,
+				071E9AB72F0D1EB5001F27A0 /* StatusCard.swift in Sources */,
+				071E9AB92F0D1ECB001F27A0 /* MetricCard.swift in Sources */,
+				071E9AAE2F0D1D63001F27A0 /* PrimaryButton.swift in Sources */,
+				071E9B162F0D314D001F27A0 /* RequestsViewModel.swift in Sources */,
 				073AA0582EFD3BD500E83EAA /* Spacing.swift in Sources */,
+				071E9AF52F0D2B8B001F27A0 /* ProjectCard.swift in Sources */,
+				071E9B182F0D3170001F27A0 /* RequestCard.swift in Sources */,
+				071E9AF72F0D2B9E001F27A0 /* TaskCard.swift in Sources */,
 				073AA0562EFD3B7F00E83EAA /* Typography.swift in Sources */,
+				071E9B102F0D3030001F27A0 /* EmployeeListView.swift in Sources */,
+				071E9AAA2F0D1D13001F27A0 /* AppIcons.swift in Sources */,
+				071E9AEF2F0D2AAE001F27A0 /* Task.swift in Sources */,
+				071E9AC72F0D205B001F27A0 /* AuthenticationView.swift in Sources */,
+				071E9B1E2F0D32AB001F27A0 /* CreateLateView.swift in Sources */,
+				071E9B1A2F0D3191001F27A0 /* CreateLeaveView.swift in Sources */,
 				073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */,
+				071E9B0D2F0D2FFB001F27A0 /* AdminTabView.swift in Sources */,
+				071E9AC22F0D1F96001F27A0 /* User.swift in Sources */,
+				071E9AD12F0D2189001F27A0 /* EmployeeHomeView.swift in Sources */,
+				071E9B142F0D3060001F27A0 /* AdminRequestsView.swift in Sources */,
 				073AA05E2EFD3CE800E83EAA /* AppTheme.swift in Sources */,
+				071E9AFB2F0D2CDF001F27A0 /* EditProjectView.swift in Sources */,
 				073AA05C2EFD3C3600E83EAA /* Shadows.swift in Sources */,
 				073AA05A2EFD3C0700E83EAA /* Radius.swift in Sources */,
+				071E9ADB2F0D22A4001F27A0 /* AdminDashboardViewModel .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
