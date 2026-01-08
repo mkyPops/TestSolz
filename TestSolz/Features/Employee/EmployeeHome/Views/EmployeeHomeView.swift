@@ -52,9 +52,6 @@ struct EmployeeHomeView: View {
                             tasksSection
                         }
                         
-                        // History Button
-                        historyButton
-                        
                         Spacer()
                     }
                     .padding(.horizontal, Spacing.screenHorizontal)
@@ -70,9 +67,17 @@ struct EmployeeHomeView: View {
                     loadingOverlay
                 }
             }
-            .task {
-                await attendanceViewModel.fetchTodayStatus()
-                await tasksViewModel.fetchProjectAndTasks(userId: authViewModel.currentUser?.id ?? "")
+            .onAppear {
+                if attendanceViewModel.todayAttendance == nil {
+                    Task {
+                        await attendanceViewModel.fetchTodayStatus()
+                    }
+                }
+                if tasksViewModel.currentProject == nil {
+                    Task {
+                        await tasksViewModel.fetchProjectAndTasks(userId: authViewModel.currentUser?.id ?? "")
+                    }
+                }
             }
             .sheet(isPresented: $tasksViewModel.showCreateTask) {
                 CreateTaskView(

@@ -29,34 +29,58 @@ struct CreateLateView: View {
                 
                 ScrollView {
                     VStack(spacing: Spacing.lg) {
-                        // Date
+                        // Date & Time - Compact Style
                         VStack(alignment: .leading, spacing: Spacing.xs) {
-                            Text("Date")
+                            Text("When")
                                 .font(AppTypography.labelSmall)
                                 .foregroundColor(ColorPalette.textSecondary)
                                 .textCase(.uppercase)
                                 .tracking(0.5)
                             
-                            DatePicker("Select Date", selection: $date, in: Date()..., displayedComponents: .date)
-                                .datePickerStyle(.compact)
-                                .padding(Spacing.md)
-                                .background(ColorPalette.cardBackground)
-                                .cornerRadius(Radius.card)
-                        }
-                        
-                        // Expected Time
-                        VStack(alignment: .leading, spacing: Spacing.xs) {
-                            Text("Expected Arrival Time")
-                                .font(AppTypography.labelSmall)
-                                .foregroundColor(ColorPalette.textSecondary)
-                                .textCase(.uppercase)
-                                .tracking(0.5)
-                            
-                            DatePicker("Select Time", selection: $time, displayedComponents: .hourAndMinute)
-                                .datePickerStyle(.compact)
-                                .padding(Spacing.md)
-                                .background(ColorPalette.cardBackground)
-                                .cornerRadius(Radius.card)
+                            BaseCard(padding: Spacing.md) {
+                                VStack(spacing: Spacing.md) {
+                                    // Date
+                                    HStack {
+                                        VStack(alignment: .leading, spacing: Spacing.xxs) {
+                                            Text("Date")
+                                                .font(AppTypography.captionMedium)
+                                                .foregroundColor(ColorPalette.textSecondary)
+                                            
+                                            Text(date.formatted(style: "date"))
+                                                .font(AppTypography.bodyMedium)
+                                                .foregroundColor(ColorPalette.textPrimary)
+                                        }
+                                        
+                                        Spacer()
+                                        
+                                        DatePicker("", selection: $date, in: Date()..., displayedComponents: .date)
+                                            .labelsHidden()
+                                            .accentColor(ColorPalette.primary)
+                                    }
+                                    
+                                    Divider()
+                                        .background(ColorPalette.divider)
+                                    
+                                    // Expected Time
+                                    HStack {
+                                        VStack(alignment: .leading, spacing: Spacing.xxs) {
+                                            Text("Expected Arrival")
+                                                .font(AppTypography.captionMedium)
+                                                .foregroundColor(ColorPalette.textSecondary)
+                                            
+                                            Text(time.formatted(date: .omitted, time: .shortened))
+                                                .font(AppTypography.bodyMedium)
+                                                .foregroundColor(ColorPalette.textPrimary)
+                                        }
+                                        
+                                        Spacer()
+                                        
+                                        DatePicker("", selection: $time, displayedComponents: .hourAndMinute)
+                                            .labelsHidden()
+                                            .accentColor(ColorPalette.primary)
+                                    }
+                                }
+                            }
                         }
                         
                         // Reason

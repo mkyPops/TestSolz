@@ -49,35 +49,79 @@ struct CreateLeaveView: View {
                             }
                         }
                         
-                        // Dates
-                        VStack(alignment: .leading, spacing: Spacing.xs) {
+                        // Dates - Compact Style
+                        VStack(alignment: .leading, spacing: Spacing.sm) {
                             Text("Dates")
                                 .font(AppTypography.labelSmall)
                                 .foregroundColor(ColorPalette.textSecondary)
                                 .textCase(.uppercase)
                                 .tracking(0.5)
                             
-                            VStack(spacing: Spacing.sm) {
-                                DatePicker("Start Date", selection: $startDate, displayedComponents: .date)
-                                    .datePickerStyle(.compact)
-                                
-                                DatePicker("End Date", selection: $endDate, in: startDate..., displayedComponents: .date)
-                                    .datePickerStyle(.compact)
-                                
-                                HStack {
-                                    Text("Duration:")
-                                        .font(AppTypography.bodySmall)
-                                        .foregroundColor(ColorPalette.textSecondary)
-                                    Text("\(daysCount) day\(daysCount == 1 ? "" : "s")")
-                                        .font(AppTypography.bodySmall)
-                                        .foregroundColor(ColorPalette.primary)
-                                        .fontWeight(.semibold)
-                                    Spacer()
+                            BaseCard(padding: Spacing.md) {
+                                VStack(spacing: Spacing.md) {
+                                    // Start Date
+                                    HStack {
+                                        VStack(alignment: .leading, spacing: Spacing.xxs) {
+                                            Text("Start Date")
+                                                .font(AppTypography.captionMedium)
+                                                .foregroundColor(ColorPalette.textSecondary)
+                                            
+                                            Text(startDate.formatted(style: "date"))
+                                                .font(AppTypography.bodyMedium)
+                                                .foregroundColor(ColorPalette.textPrimary)
+                                        }
+                                        
+                                        Spacer()
+                                        
+                                        DatePicker("", selection: $startDate, displayedComponents: .date)
+                                            .labelsHidden()
+                                            .accentColor(ColorPalette.primary)
+                                    }
+                                    
+                                    Divider()
+                                        .background(ColorPalette.divider)
+                                    
+                                    // End Date
+                                    HStack {
+                                        VStack(alignment: .leading, spacing: Spacing.xxs) {
+                                            Text("End Date")
+                                                .font(AppTypography.captionMedium)
+                                                .foregroundColor(ColorPalette.textSecondary)
+                                            
+                                            Text(endDate.formatted(style: "date"))
+                                                .font(AppTypography.bodyMedium)
+                                                .foregroundColor(ColorPalette.textPrimary)
+                                        }
+                                        
+                                        Spacer()
+                                        
+                                        DatePicker("", selection: $endDate, in: startDate..., displayedComponents: .date)
+                                            .labelsHidden()
+                                            .accentColor(ColorPalette.primary)
+                                    }
+                                    
+                                    Divider()
+                                        .background(ColorPalette.divider)
+                                    
+                                    // Duration
+                                    HStack {
+                                        Image(systemName: AppIcons.clock)
+                                            .font(.system(size: 16, weight: .medium))
+                                            .foregroundColor(ColorPalette.primary)
+                                        
+                                        Text("Duration:")
+                                            .font(AppTypography.bodyMedium)
+                                            .foregroundColor(ColorPalette.textSecondary)
+                                        
+                                        Text("\(daysCount) day\(daysCount == 1 ? "" : "s")")
+                                            .font(AppTypography.bodyMedium)
+                                            .foregroundColor(ColorPalette.primary)
+                                            .fontWeight(.semibold)
+                                        
+                                        Spacer()
+                                    }
                                 }
                             }
-                            .padding(Spacing.md)
-                            .background(ColorPalette.cardBackground)
-                            .cornerRadius(Radius.card)
                         }
                         
                         // Reason
