@@ -47,6 +47,8 @@
 		071E9B182F0D3170001F27A0 /* RequestCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B172F0D3170001F27A0 /* RequestCard.swift */; };
 		071E9B1A2F0D3191001F27A0 /* CreateLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */; };
 		071E9B1E2F0D32AB001F27A0 /* CreateLateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */; };
+		071E9B222F0FDA4F001F27A0 /* AdminRequestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */; };
+		071E9B242F0FDA7B001F27A0 /* RequestReviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B232F0FDA7B001F27A0 /* RequestReviewSheet.swift */; };
 		073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */; };
 		073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0212EFAC38800E83EAA /* ContentView.swift */; };
 		073AA0242EFAC38B00E83EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073AA0232EFAC38B00E83EAA /* Assets.xcassets */; };
@@ -100,6 +102,8 @@
 		071E9B172F0D3170001F27A0 /* RequestCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCard.swift; sourceTree = "<group>"; };
 		071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLeaveView.swift; sourceTree = "<group>"; };
 		071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLateView.swift; sourceTree = "<group>"; };
+		071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRequestsViewModel.swift; sourceTree = "<group>"; };
+		071E9B232F0FDA7B001F27A0 /* RequestReviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewSheet.swift; sourceTree = "<group>"; };
 		073AA01C2EFAC38800E83EAA /* TestSolz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSolz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSolzApp.swift; sourceTree = "<group>"; };
 		073AA0212EFAC38800E83EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -260,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */,
+				071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				071E9B132F0D3060001F27A0 /* AdminRequestsView.swift */,
+				071E9B232F0FDA7B001F27A0 /* RequestReviewSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -713,6 +719,7 @@
 				071E9B002F0D2E8D001F27A0 /* AppTab.swift in Sources */,
 				071E9AB22F0D1D93001F27A0 /* TextButton.swift in Sources */,
 				071E9AE62F0D250F001F27A0 /* AttendanceHistoryView.swift in Sources */,
+				071E9B222F0FDA4F001F27A0 /* AdminRequestsViewModel.swift in Sources */,
 				071E9AB52F0D1E9C001F27A0 /* BaseCard.swift in Sources */,
 				071E9AC52F0D2044001F27A0 /* AuthenticationViewModel.swift in Sources */,
 				071E9AC92F0D20F4001F27A0 /* Attendance.swift in Sources */,
@@ -743,6 +750,7 @@
 				071E9AAA2F0D1D13001F27A0 /* AppIcons.swift in Sources */,
 				071E9AEF2F0D2AAE001F27A0 /* Task.swift in Sources */,
 				071E9AC72F0D205B001F27A0 /* AuthenticationView.swift in Sources */,
+				071E9B242F0FDA7B001F27A0 /* RequestReviewSheet.swift in Sources */,
 				071E9B1E2F0D32AB001F27A0 /* CreateLateView.swift in Sources */,
 				071E9B1A2F0D3191001F27A0 /* CreateLeaveView.swift in Sources */,
 				073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */,
