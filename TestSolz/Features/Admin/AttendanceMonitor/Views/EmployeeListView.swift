@@ -19,18 +19,27 @@ struct EmployeeListView: View {
                 ColorPalette.backgroundSecondary
                     .ignoresSafeArea()
                 
-                ScrollView {
-                    VStack(spacing: Spacing.lg) {
-                        // Search Bar
-                        searchBar
-                        
-                        // Employee List
-                        employeeListSection
-                        
-                        Spacer()
+                VStack(spacing: 0) {
+                    // Search Bar
+                    searchBar
+                        .padding(.horizontal, Spacing.screenHorizontal)
+                        .padding(.top, Spacing.sm)
+                    
+                    // Employee List
+                    if viewModel.filteredEmployees.isEmpty {
+                        emptyState
+                    } else {
+                        ScrollView {
+                            VStack(spacing: Spacing.md) {
+                                ForEach(viewModel.filteredEmployees) { employeeAttendance in
+                                    employeeCard(employeeAttendance)
+                                }
+                            }
+                            .padding(.horizontal, Spacing.screenHorizontal)
+                            .padding(.top, Spacing.md)
+                            .padding(.bottom, 100)
+                        }
                     }
-                    .padding(.horizontal, Spacing.screenHorizontal)
-                    .padding(.top, Spacing.md)
                 }
                 .refreshable {
                     await viewModel.refresh()
@@ -43,8 +52,24 @@ struct EmployeeListView: View {
             }
             .navigationTitle("Employees")
             .navigationBarTitleDisplayMode(.large)
-            .task {
-                await viewModel.fetchAttendanceData()
+            .toolbarBackground(ColorPalette.background, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbarColorScheme(.light, for: .navigationBar)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink(destination: ProfileView()) {
+                        Image(systemName: AppIcons.user)
+                            .font(.system(size: 20, weight: .medium))
+                            .foregroundColor(ColorPalette.textSecondary)
+                    }
+                }
+            }
+            .onAppear {
+                if viewModel.employeeAttendances.isEmpty {
+                    Task {
+                        await viewModel.fetchAttendanceData()
+                    }
+                }
             }
         }
     }
@@ -59,6 +84,7 @@ struct EmployeeListView: View {
             TextField("Search employees...", text: $viewModel.searchText)
                 .font(AppTypography.bodyMedium)
                 .foregroundColor(ColorPalette.textPrimary)
+                .tint(ColorPalette.primary)
             
             if !viewModel.searchText.isEmpty {
                 Button(action: {
@@ -75,31 +101,12 @@ struct EmployeeListView: View {
         .padding(.vertical, Spacing.inputPaddingVertical)
         .background(
             RoundedRectangle(cornerRadius: Radius.input)
-                .fill(ColorPalette.backgroundSecondary)
+                .fill(Color.white)
         )
         .overlay(
             RoundedRectangle(cornerRadius: Radius.input)
                 .stroke(ColorPalette.border, lineWidth: 1)
         )
-    }
-    
-    // MARK: - Employee List Section
-    private var employeeListSection: some View {
-        VStack(alignment: .leading, spacing: Spacing.md) {
-            Text("All Employees (\(viewModel.filteredEmployees.count))")
-                .font(AppTypography.labelMedium)
-                .foregroundColor(ColorPalette.textSecondary)
-                .textCase(.uppercase)
-                .tracking(0.5)
-            
-            if viewModel.filteredEmployees.isEmpty {
-                emptyState
-            } else {
-                ForEach(viewModel.filteredEmployees) { employeeAttendance in
-                    employeeCard(employeeAttendance)
-                }
-            }
-        }
     }
     
     // MARK: - Employee Card
@@ -155,8 +162,7 @@ struct EmployeeListView: View {
                 .font(AppTypography.bodyMedium)
                 .foregroundColor(ColorPalette.textSecondary)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, Spacing.xxl)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
     // MARK: - Loading Overlay

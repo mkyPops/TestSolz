@@ -44,9 +44,17 @@ class AdminRequestsViewModel: ObservableObject {
     }
     
     // Counts
-    var pendingCount: Int { pendingRequests.count }
-    var approvedCount: Int { approvedRequests.count }
-    var rejectedCount: Int { rejectedRequests.count }
+    var pendingCount: Int {
+        requests.filter { $0.status == .pending }.count
+    }
+    
+    var approvedCount: Int {
+        requests.filter { $0.status == .approved }.count
+    }
+    
+    var rejectedCount: Int {
+        requests.filter { $0.status == .rejected }.count
+    }
     
     // MARK: - Fetch Requests
     func fetchRequests() async {

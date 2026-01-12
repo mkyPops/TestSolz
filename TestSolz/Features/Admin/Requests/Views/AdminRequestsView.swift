@@ -127,6 +127,7 @@ struct AdminRequestsView: View {
             TextField("Search by name or department...", text: $viewModel.searchText)
                 .font(AppTypography.bodyMedium)
                 .foregroundColor(ColorPalette.textPrimary)
+                .tint(ColorPalette.primary)
             
             if !viewModel.searchText.isEmpty {
                 Button(action: {
@@ -143,14 +144,13 @@ struct AdminRequestsView: View {
         .padding(.vertical, Spacing.inputPaddingVertical)
         .background(
             RoundedRectangle(cornerRadius: Radius.input)
-                .fill(ColorPalette.cardBackground)
+                .fill(Color.white)
         )
         .overlay(
             RoundedRectangle(cornerRadius: Radius.input)
                 .stroke(ColorPalette.border, lineWidth: 1)
         )
     }
-    
     // MARK: - Tab Selector
     private var tabSelector: some View {
         HStack(spacing: Spacing.xs) {

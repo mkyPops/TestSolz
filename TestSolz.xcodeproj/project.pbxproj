@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070AB35D2F1502C700CFDAE5 /* AdminDashboardViewModel..swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AB35C2F1502C700CFDAE5 /* AdminDashboardViewModel..swift */; };
+		070AB3602F15044900CFDAE5 /* AdminRequestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AB35F2F15044900CFDAE5 /* AdminRequestsViewModel.swift */; };
 		071E9AAA2F0D1D13001F27A0 /* AppIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AA92F0D1D13001F27A0 /* AppIcons.swift */; };
 		071E9AAE2F0D1D63001F27A0 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AAD2F0D1D63001F27A0 /* PrimaryButton.swift */; };
 		071E9AB02F0D1D7B001F27A0 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AAF2F0D1D7B001F27A0 /* SecondaryButton.swift */; };
@@ -23,7 +25,6 @@
 		071E9ACD2F0D2150001F27A0 /* CheckInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ACC2F0D2150001F27A0 /* CheckInViewModel.swift */; };
 		071E9AD12F0D2189001F27A0 /* EmployeeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AD02F0D2189001F27A0 /* EmployeeHomeView.swift */; };
 		071E9AD52F0D2246001F27A0 /* EmployeeAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AD42F0D2246001F27A0 /* EmployeeAttendance.swift */; };
-		071E9ADB2F0D22A4001F27A0 /* AdminDashboardViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */; };
 		071E9ADE2F0D230B001F27A0 /* AdminDashboardView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */; };
 		071E9AE42F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AE32F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift */; };
 		071E9AE62F0D250F001F27A0 /* AttendanceHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9AE52F0D250F001F27A0 /* AttendanceHistoryView.swift */; };
@@ -47,7 +48,6 @@
 		071E9B182F0D3170001F27A0 /* RequestCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B172F0D3170001F27A0 /* RequestCard.swift */; };
 		071E9B1A2F0D3191001F27A0 /* CreateLeaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */; };
 		071E9B1E2F0D32AB001F27A0 /* CreateLateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */; };
-		071E9B222F0FDA4F001F27A0 /* AdminRequestsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */; };
 		071E9B242F0FDA7B001F27A0 /* RequestReviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071E9B232F0FDA7B001F27A0 /* RequestReviewSheet.swift */; };
 		073AA0202EFAC38800E83EAA /* TestSolzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */; };
 		073AA0222EFAC38800E83EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073AA0212EFAC38800E83EAA /* ContentView.swift */; };
@@ -62,6 +62,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070AB35C2F1502C700CFDAE5 /* AdminDashboardViewModel..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardViewModel..swift; sourceTree = "<group>"; };
+		070AB35F2F15044900CFDAE5 /* AdminRequestsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRequestsViewModel.swift; sourceTree = "<group>"; };
 		071E9AA92F0D1D13001F27A0 /* AppIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcons.swift; sourceTree = "<group>"; };
 		071E9AAD2F0D1D63001F27A0 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		071E9AAF2F0D1D7B001F27A0 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 		071E9ACC2F0D2150001F27A0 /* CheckInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewModel.swift; sourceTree = "<group>"; };
 		071E9AD02F0D2189001F27A0 /* EmployeeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeHomeView.swift; sourceTree = "<group>"; };
 		071E9AD42F0D2246001F27A0 /* EmployeeAttendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAttendance.swift; sourceTree = "<group>"; };
-		071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminDashboardViewModel .swift"; sourceTree = "<group>"; };
 		071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdminDashboardView .swift"; sourceTree = "<group>"; };
 		071E9AE32F0D24F4001F27A0 /* AttendanceHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryViewModel.swift; sourceTree = "<group>"; };
 		071E9AE52F0D250F001F27A0 /* AttendanceHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryView.swift; sourceTree = "<group>"; };
@@ -102,7 +103,6 @@
 		071E9B172F0D3170001F27A0 /* RequestCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCard.swift; sourceTree = "<group>"; };
 		071E9B192F0D3191001F27A0 /* CreateLeaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLeaveView.swift; sourceTree = "<group>"; };
 		071E9B1D2F0D32AB001F27A0 /* CreateLateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLateView.swift; sourceTree = "<group>"; };
-		071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRequestsViewModel.swift; sourceTree = "<group>"; };
 		071E9B232F0FDA7B001F27A0 /* RequestReviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewSheet.swift; sourceTree = "<group>"; };
 		073AA01C2EFAC38800E83EAA /* TestSolz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSolz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073AA01F2EFAC38800E83EAA /* TestSolzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSolzApp.swift; sourceTree = "<group>"; };
@@ -263,8 +263,7 @@
 		071E9AD92F0D2290001F27A0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				071E9ADA2F0D22A4001F27A0 /* AdminDashboardViewModel .swift */,
-				071E9B212F0FDA4F001F27A0 /* AdminRequestsViewModel.swift */,
+				070AB35C2F1502C700CFDAE5 /* AdminDashboardViewModel..swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -273,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				071E9ADD2F0D230B001F27A0 /* AdminDashboardView .swift */,
+				070AB35F2F15044900CFDAE5 /* AdminRequestsViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -715,12 +715,13 @@
 			files = (
 				071E9ADE2F0D230B001F27A0 /* AdminDashboardView .swift in Sources */,
 				071E9AF92F0D2BD6001F27A0 /* CreateTaskView.swift in Sources */,
+				070AB3602F15044900CFDAE5 /* AdminRequestsViewModel.swift in Sources */,
 				071E9AF12F0D2B35001F27A0 /* TasksViewModel.swift in Sources */,
 				071E9B002F0D2E8D001F27A0 /* AppTab.swift in Sources */,
 				071E9AB22F0D1D93001F27A0 /* TextButton.swift in Sources */,
 				071E9AE62F0D250F001F27A0 /* AttendanceHistoryView.swift in Sources */,
-				071E9B222F0FDA4F001F27A0 /* AdminRequestsViewModel.swift in Sources */,
 				071E9AB52F0D1E9C001F27A0 /* BaseCard.swift in Sources */,
+				070AB35D2F1502C700CFDAE5 /* AdminDashboardViewModel..swift in Sources */,
 				071E9AC52F0D2044001F27A0 /* AuthenticationViewModel.swift in Sources */,
 				071E9AC92F0D20F4001F27A0 /* Attendance.swift in Sources */,
 				071E9AB02F0D1D7B001F27A0 /* SecondaryButton.swift in Sources */,
@@ -762,7 +763,6 @@
 				071E9AFB2F0D2CDF001F27A0 /* EditProjectView.swift in Sources */,
 				073AA05C2EFD3C3600E83EAA /* Shadows.swift in Sources */,
 				073AA05A2EFD3C0700E83EAA /* Radius.swift in Sources */,
-				071E9ADB2F0D22A4001F27A0 /* AdminDashboardViewModel .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
